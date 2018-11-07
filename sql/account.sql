@@ -2,9 +2,10 @@
   创建账务的数据库
   名字 account_mananger
 */
-CREATE DATABASE IF NOT EXISTS account_mananger;
+DROP DATABASE IF EXISTS account_manager;
+CREATE DATABASE IF NOT EXISTS account_manager;
 
-USE account_mananger;
+USE account_manager;
 
 /*
   创建数据表,表名账务
